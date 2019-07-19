@@ -22,4 +22,5 @@ public class Spiral {
 			// 8. Set the pen width to i
 	foot.setPenWidth(1);
 	}
+	}
 }

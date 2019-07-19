@@ -9,13 +9,13 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class StarShow {
 	
-	Robot robot = new Robot("batman");
+	Robot star = new Robot("batman");
 	
 	void makeStars() {
 		
 		drawStar(150);	//5. delete this line. You will draw the star again in step 8.
 		// 13. Set the speed to 8
-
+star.setSpeed(8);
 		// 6. Make a variable to hold the X position of the Robot and set it to 10
 
 		// 7. Make a variable to hold the Y position of the Robot and set it to 600
@@ -25,7 +25,7 @@ public class StarShow {
 		// 12. Use a for loop to repeat steps #19 to #18, 30 times
 
 			// 19. Set the pen width to i 
-	
+	star.setPenWidth(i);
 			// 10. Set the X position of the robot to your X variable
 	
 			// 11. Set the Y position of the robot to your Y variable
